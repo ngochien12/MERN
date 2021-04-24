@@ -6,7 +6,7 @@ const Post = require('../models/Post')
 
 
 // @route POST api/posts
-// @desc  Create post
+// @desc  Create post 
 // @acces Private
 
 router.post('/', verifyToken, async (req, res) => {

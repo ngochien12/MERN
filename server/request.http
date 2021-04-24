@@ -12,20 +12,20 @@ POST http://localhost:5000/api/auth/login
 Content-Type: application/json
 
 {
-    "username": "andy1",
-    "password": "andyhth"
+    "username": "adyhth",
+    "password": "adyhth"
 }
 
 ###
 POST http://localhost:5000/api/posts
 Content-Type: application/json
-Authorization: Baerer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDZmMTRmZjUyYjc5NjA5MDg0M2ExODYiLCJpYXQiOjE2MTc4OTkzNDl9.91KcT8QaVxstQzff7CM-E1A97lLCVPTphdb4z54us8A
+Authorization: Baerer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDcwMjM0NzM1OGE0OTJlMTBiNTZkZmQiLCJpYXQiOjE2MTgxMzM0NDV9.RRilNXwttUsDpHX6m_wwFGJno5dVruKtElmB55VeOck
 
 {
-    "title": "React",
+    "title": "Angular",
     "description": "pratice react",
     "url": "youtube.com",
-    "status": "LEARNING"
+    "status": "LEARNED"
 }
 ###
 GET  http://localhost:5000/api/posts
